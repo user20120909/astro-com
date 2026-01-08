@@ -28,7 +28,7 @@ const Header: React.FC<Props> = ({ shopUrl }) => {
                 className="h-10 w-auto sm:h-12"
               />
               <span className="ml-3 text-2xl sm:text-3xl font-bold">
-                GurlsLife.com
+                Gurls Life
               </span>
             </a>
           </div>
