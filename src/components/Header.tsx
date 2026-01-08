@@ -11,7 +11,6 @@ const Header: React.FC<Props> = ({ shopUrl }) => {
   const pages = [
     { name: 'shop 👕', href: shopUrl },
     { name: 'news 📰', href: '/ps/1' },
-    { name: 'whores army 💬', href: '/whores-army' },
     { name: 'follow bag 👥', href: '/follow' },
     { name: 'contact 📧', href: '/contact' },
   ];
