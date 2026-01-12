@@ -4,16 +4,15 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import PostList from '../components/PostList.astro';
 
 import Button from '../components/Button';
-import { FaInstagram, FaTiktok } from 'react-icons/fa';
-import { FaThreads } from 'react-icons/fa6';
+import { FaInstagram } from 'react-icons/fa';
 ---
 
 <BaseLayout>
   <Paragraph />
   <Paragraph title="shop 👕" ad="shop-xl" />
-  <Paragraph title="news 📰">
+  <Paragraph title="posts 📰">
     <PostList skip={0} take={3} />
-    <Button text="all news" href="/ps/1" />
+    <Button text="all posts" href="/ps/1" />
   </Paragraph>
   <Paragraph title="follow 👥">
     look <a href="/follow">here</a> how you can get a follow bag from me
