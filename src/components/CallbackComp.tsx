@@ -4,3 +4,5 @@ const Callback = () => {
   console.log('Code:', code);
   return <div>{code}</div>;
 };
+
+export default Callback;
